@@ -4,8 +4,7 @@ terraform {
       key    = "cloudformation/dev/terraform.tfstate"
       region = "us-east-1"
       dynamodb_table = "terraformstate"
-    }
-
+   }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
